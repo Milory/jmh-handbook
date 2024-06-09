@@ -16,8 +16,6 @@
   <!-- docsify-edit-on-github -->
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script>
-	  var aa =EditOnGithubPlugin.create('https://github.com/Milory/jmh-handbook/edit/master/docs/');
-	  console.log(aa)
     window.$docsify = {
       name: 'jmh 学习手册',
       repo: 'https://github.com/Milory/jmh-handbook/',
@@ -43,6 +41,7 @@
       plugins: [
         EditOnGithubPlugin.create('https://github.com/Milory/jmh-handbook/edit/master/docs/'),
 		//	添加一个切换主题的功能
+		/*
 		function(hook, vm) {
 		  hook.ready(function() {
 			var themeContainer = document.querySelector(".theme-container");
@@ -55,6 +54,7 @@
 			};
 		  });
 		}
+		*/
       ],
       pagination: {
         previousText: '上一章节',
