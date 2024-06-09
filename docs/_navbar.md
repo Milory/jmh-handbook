@@ -14,9 +14,8 @@
 * [算法小抄](https://labuladong.github.io/algo/)
 -->
 
-- 主题
-  - [:vue: vue](vue)
-  - [:buble: buble](buble)
-  - [:dark: dark](dark)
-  - [:pure: pure](pure)
-  - [:dolphin: dolphin](dolphin) 
+<select class="theme-container">
+    <option value="vue">vue主题</option>
+    <option value="dark">黑夜主题</option>
+    <option value="buble">buble主题</option>
+</select>
