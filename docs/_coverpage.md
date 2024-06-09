@@ -1,4 +1,4 @@
-![logo](_media/netty_logo_450px.svg)
+![logo](_media/jmh_logo.svg)
 
 > 《尚硅谷 Netty 核心技术及源码剖析》课程学习手册
 
