@@ -38,6 +38,10 @@
         // 搜索标题的最大程级, 1 - 6
         depth: 3,
       },
+	  alias: {
+	    "/.*/_sidebar.md": "/_sidebar.md",
+		"/.*/_navbar.md": "/_navbar.md"
+	  },
       plugins: [
         EditOnGithubPlugin.create('https://github.com/Milory/jmh-handbook/edit/master/docs/'),
 		//	添加一个切换主题的功能
